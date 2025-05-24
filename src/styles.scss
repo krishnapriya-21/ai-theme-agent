@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    text-align: center;
+    
+}
+
+button.md-button{
+    padding:10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.card.md-card{
+    padding:20px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+    width: 300px;
+    margin: 10px auto;
+}

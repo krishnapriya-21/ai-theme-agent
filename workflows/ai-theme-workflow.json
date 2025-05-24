@@ -1,0 +1,24 @@
+{
+    "nodes": [
+        {
+            "parameters": { "themeType": "adaptive" },
+            "name": "User Input",
+            "type": "n8n-nodes-base.set"
+        },
+        {
+            "parameters": {
+                "functionCode": "return { themeColors: generateMaterialPalette($input.themeType) };"
+            },
+            "name": "AI Theme Processing",
+            "type": "n8n-nodes-base.function"
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "https://your-backend-api.com/theme"
+            },
+            "name": "Send AI Optimized Theme",
+            "type": "n8n-nodes-base.httpRequest"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "ai-theme-agent",
+    "version": "1.0.0",
+    "description": "An AI-powered UI Theme Generator using n8n workflows and Material Design.",
+    "main": "server/api.js",
+    "scripts": {
+        "start": "node server/api.js",
+        "dev": "nodemon server/api.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.0"
+    },
+    "keywords": ["AI", "theme generator", "Material Design", "automation", "n8n"],
+    "author": "Krishnapriya",
+    "license": "MIT"
+}
